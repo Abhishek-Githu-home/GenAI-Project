@@ -1,0 +1,13 @@
+[     893ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://rahulshettyacademy.com/client/#/auth/register:0
+[     893ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://rahulshettyacademy.com/client/#/auth/register:0
+[   10601ms] [ERROR] ERROR TypeError: this.registerForm.value.occupation.setValue is not a function
+    at t.changeOcp (https://rahulshettyacademy.com/client/193.9a727f72e8b521135d18.js:1:32925)
+    at https://rahulshettyacademy.com/client/193.9a727f72e8b521135d18.js:1:8447
+    at jp (https://rahulshettyacademy.com/client/main.dbba2e40bc4eca584f08.js:1:101100)
+    at i (https://rahulshettyacademy.com/client/main.dbba2e40bc4eca584f08.js:1:101309)
+    at HTMLSelectElement.<anonymous> (https://rahulshettyacademy.com/client/main.dbba2e40bc4eca584f08.js:1:164154)
+    at v.invokeTask (https://rahulshettyacademy.com/client/polyfills.bd0c6ffd915d0ed70d31.js:1:7137)
+    at Object.onInvokeTask (https://rahulshettyacademy.com/client/main.dbba2e40bc4eca584f08.js:1:146255)
+    at v.invokeTask (https://rahulshettyacademy.com/client/polyfills.bd0c6ffd915d0ed70d31.js:1:7058)
+    at M.runTask (https://rahulshettyacademy.com/client/polyfills.bd0c6ffd915d0ed70d31.js:1:2532)
+    at m.invokeTask [as invoke] (https://rahulshettyacademy.com/client/polyfills.bd0c6ffd915d0ed70d31.js:1:8188) @ https://rahulshettyacademy.com/client/main.dbba2e40bc4eca584f08.js:0

@@ -1,0 +1,19 @@
+- generic [ref=e375]:
+  - heading "Enter New Password" [level=3] [ref=e377]
+  - generic [ref=e379]:
+    - generic [ref=e380]:
+      - generic [ref=e381]: Email
+      - textbox "Enter your email address" [ref=e382]
+    - generic [ref=e383]:
+      - generic [ref=e384]: Password
+      - textbox "Passsword" [ref=e385]
+    - generic [ref=e386]:
+      - generic [ref=e387]: Confirm Password
+      - textbox "Confirm Password" [ref=e388]:
+        - /placeholder: Confirm Passsword
+    - button "Save New Password" [ref=e390] [cursor=pointer]
+    - generic [ref=e391]:
+      - link "Login" [ref=e392] [cursor=pointer]:
+        - /url: "#/auth/login"
+      - link "Register" [ref=e393] [cursor=pointer]:
+        - /url: "#/auth/register"
